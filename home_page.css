@@ -43,6 +43,26 @@ main{
     background-color:#ffffff;
     position: relative;
 }
+
+.wrapper{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    background-color: crimson;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.bag{
+    display: flex;
+    
+    min-width: 210px;
+    height: 375px;
+    overflow: hidden;
+    background-color: darkgreen;
+    margin: 30px;
+}
 .page{
     text-decoration: none;
 }

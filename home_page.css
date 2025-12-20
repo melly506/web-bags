@@ -3,14 +3,12 @@
 }
 body{
     display: flex;
-    background-color: aqua;
     flex-direction: column;
     min-height: 100vh;
     width:100%;
-    /* overflow: hidden;
-    overflow-wrap: break-word; */
     font-family: 'Playpen Sans';
     font-size: 15px;
+    font-weight:600;
 }
 header{
     display: flex;
@@ -19,12 +17,11 @@ header{
     background-color:#ffffff;
     justify-content: space-around;
     align-items: center;
-    font-weight:600;
+    font-weight:bolder;
 }
 .main_name{
     width: 350px;
     height: 80px;
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,10 +31,10 @@ header{
     font-size: 44px;
 }
 
-
 .shop{
     color: #7d7d7d;
 }
+
 main{
     display: flex;
     justify-content: center;
@@ -54,17 +51,14 @@ main{
     flex: 1;
     width: 100%;
     height: auto;
-    /* background-color: crimson; */
     justify-content: space-around;
-    flex-wrap:wrap;
-    
+    flex-wrap:wrap;  
 }
 
 .bag{
     display: flex;
     flex-basis: 250px;
     height: 375px;
-    /* background-color: darkgreen; */
     margin: 30px;
     flex-direction: column;
 }
@@ -72,7 +66,6 @@ main{
 .block{
     display: flex;
     flex: 1;
-    /* background-color:chocolate ; */
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -87,19 +80,19 @@ main{
 .grid{
     display: flex;
     flex-direction: column;
-    position: relative;
-    font-weight:600;
+    position: relative; 
 }
 
 img{
     min-width: 210px;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit:cover;
 }
 .page{
     text-decoration: none;
 }
+
 .page_color{
     color: #121212;
 }
@@ -108,7 +101,6 @@ img{
     display: flex;
     width: 15px;
     height: 65px;
-    /* background-color: aqua; */
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
@@ -126,8 +118,8 @@ footer{
     margin-top: auto;
     justify-content: space-around;
     align-items: center;
-
 }
+
 .footer{
     display: flex;
     flex-direction: column;

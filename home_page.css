@@ -50,16 +50,18 @@ main{
     display: flex;
     flex: 1;
     width: 100%;
+    max-width: 1980px;
     height: auto;
     justify-content: space-around;
-    flex-wrap:wrap;  
+    flex-wrap:wrap;
+
 }
 
 .bag{
     display: flex;
-    flex-basis: 250px;
-    height: 375px;
-    margin: 30px;
+    flex-basis: 400px;
+    height: 495px;
+    gap: 30px;
     flex-direction: column;
 }
 

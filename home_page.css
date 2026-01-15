@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
     width:100%;
     font-family: 'Playpen Sans';
-    font-size: 15px;
+    font-size: 18px;
     font-weight:600;
 }
 header{
@@ -19,6 +19,17 @@ header{
     align-items: center;
     font-weight:bolder;
 }
+
+.account{
+    position: relative;
+}
+
+.material-symbols-outlined{
+    position: fixed;
+    right: 10%;
+    
+}
+
 .main_name{
     width: 350px;
     height: 80px;
@@ -26,6 +37,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.expression-with-universal-design{
+    font-size: small;
 }
 .main_logo{
     font-size: 44px;
@@ -92,7 +106,9 @@ img{
     object-fit:cover;
 }
 .page{
+    display: flex;
     text-decoration: none;
+    
 }
 
 .page_color{
@@ -110,20 +126,19 @@ img{
     align-items: center;
     position: fixed;
     top: 50%;
-    right: 0;
+    right: 5px;
     transform: translate(0, -50%);
 }
 
 footer{
     display: flex;
     width:100%;
-    min-height: 130px;
-    max-height: 260px;
     background-color: #121212;
     color: #cecece;
     margin-top: auto;
     justify-content: space-around;
     align-items: center;
+    padding: 15px;
 }
 
 .footer{
